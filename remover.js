@@ -1,0 +1,1 @@
+var elems=document.querySelectorAll(".blur");[].forEach.call(elems,function(e){e.classList.remove("blur")});for(var elements=document.getElementsByClassName("popupOverlay");elements.length>0;)elements[0].remove();for(elements=document.getElementsByClassName("popupContainer");elements.length>0;)elements[0].remove();
